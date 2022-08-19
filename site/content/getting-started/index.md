@@ -119,7 +119,7 @@ ZAP will proceed to crawl the web application with its spider and passively scan
 
 ZAP provides 2 spiders for crawling web applications, you can use either or both of them from this screen.
 
-The traditional ZAP spider which discovers links by examining the HTML in responses from the web application. This spider is fast, but it is not always effective when exploring an AJAX web application that generates links using JavaScript.
+The traditional ZAP spider discovers links by examining the HTML in responses from the web application. This spider is fast, but it is not always effective when exploring an AJAX web application that generates links using JavaScript.
 
 For AJAX applications, ZAP’s AJAX spider is likely to be more effective. This spider explores the web application by invoking browsers which then follow the links that have been generated. The AJAX spider is slower than the traditional spider and requires additional configuration for use in a “headless” environment.
 
@@ -175,7 +175,7 @@ If you would like to use any of your browsers with an existing profile, for exam
 By default the ZAP Heads Up Display (HUD) will be enabled. Unchecking the relevant option on this screen before launching a browser will disable the HUD.
 
 ## The Heads Up Display
-The Heads Up Display (HUD) is a new an innovative interface that provides access to ZAP functionality directly in the browser. It is ideal for people new to web security and also allows experienced penetration testers to focus on an applications functionality while providing key security information and functionality.
+The Heads Up Display (HUD) is a new and innovative interface that provides access to ZAP functionality directly in the browser. It is ideal for people new to web security and also allows experienced penetration testers to focus on an applications functionality while providing key security information and functionality.
 
 {{< img "images/hud-welcome.png" >}}
 
